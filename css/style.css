@@ -1,0 +1,123 @@
+/* Set the body background color to black */
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: lightgray;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Styling the overall product card container */
+  .product-card {
+    background-color: white; /* Changed from beige to white */
+    width: 800px;
+    height: 500px;
+    display: flex;
+    margin-top: 120px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Left image column styling */
+  .left-img-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Right info column styling */
+  .right-info-col {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  /* Styling the product heading */
+  .right-info-col h3 {
+    font-size: 32px;
+    color: black;
+    margin-bottom: 15px;
+  }
+  
+  /* Styling the product subheading */
+  .right-info-col h5 {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling the product description */
+  .right-info-col p {
+    font-size: 14px;
+    color: black;
+    padding-left: 50px;
+    margin-bottom: 20px;
+  }
+  
+  /* Available colors section styling */
+  .available-colors {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .available-colors span {
+    margin-right: 10px;
+  }
+  
+  .black-color-container,
+  .red-color-container,
+  .white-color-container {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Individual color containers */
+  .black-color-container {
+    background-color: black;
+  }
+  
+  .red-color-container {
+    background-color: red;
+  }
+  
+  .white-color-container {
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+  /* Price and buy button section */
+  .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .price h4 {
+    font-size: 32px;
+    color: black;
+  }
+  
+  .buy-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .buy-btn:hover {
+    background-color: darkred;
+  }
+  
